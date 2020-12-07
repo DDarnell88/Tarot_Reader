@@ -11,7 +11,7 @@ class Deck {
 		$card = $this->getFiles();
 		$rand = shuffle($card);
 		//var_dump($card);
-		print $card[0];
+		print "Deck/". $card[0];
 
 	}
 	
