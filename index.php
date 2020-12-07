@@ -27,7 +27,7 @@
             <div class="col-10 offset-1 col-lg-8 offset-lg-2 div-wrapper d-flex justify-content-center align-items-center">
  
                 <div class="div-to-align">
-                    <p><img src="Deck\"<?php echo $cards->selectRandcard();?>"></p>
+                    <p><img src="<?php echo $cards->selectRandcard();?>"></p>
                 </div>
  
             </div>
