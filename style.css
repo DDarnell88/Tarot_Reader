@@ -1,17 +1,20 @@
 <html>
 .div-wrapper {
     height: 200px;
-    margin-top: 40px;
-    border: 2px dashed #ddd;
-    border-radius: 6px;
+    margin-top: 300px;
+	position: absolute;
+
 }
  
-.div-to-align {
+.card {
+	
     width: 75%;
-    padding: 40px 20px;
- 
+	margin: auto;
+	width: 50%;
+	border: 3px solid green;
+	padding: 10px;
+
 }
-
-
 </html>
+
 
